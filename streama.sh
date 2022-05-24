@@ -4,7 +4,7 @@ sudo -i
 yum update -y
 yum install vim wget httpd mod_ssl -y
 #Instalamos java
-yum install java-1.8.0-openjdk-devel
+yum install java-1.8.0-openjdk-devel -y
 #Descargamos Streama War
 wget https://github.com/streamaserver/streama/releases/download/v1.6.1/streama-1.6.1.war
 #Creamos la carpeta streama y movemos la descarga .war
